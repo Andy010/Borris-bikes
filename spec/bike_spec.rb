@@ -12,4 +12,43 @@ describe Bike do
 		# a method "broken?" that should return
 		expect(the_bike).not_to be_broken
 	end
+
+	it "should be able to break" do
+		bike = Bike.new
+		bike.break!
+		bike.fix!
+		expect(bike.fix!).to eq true
+	end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+describe Andy do
+	it "should be broken" do
+		andy = Andy.new
+		andy.break!
+		expect(andy).to be_broken
+	end
+	it 'should be able to fix thyself' do
+		andy = Andy.new
+		andy.break!
+		andy.healed?
+		expect(andy).to be_healed
+	end
 end
