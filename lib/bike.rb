@@ -23,6 +23,7 @@ class Bike
 	def fix!
 		@broken = false
 	end
+	#test
 end
 
 
