@@ -39,13 +39,16 @@ end
 
 
 
+
+
+
 describe Andy do
 	it "should be broken" do
 		andy = Andy.new
 		andy.break!
 		expect(andy).to be_broken
 	end
-	it 'should be able to fix thyself' do
+	it 'should be able to heal thyself' do
 		andy = Andy.new
 		andy.break!
 		andy.healed?
