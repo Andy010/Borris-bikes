@@ -24,6 +24,7 @@ class Bike
 		@broken = false
 	end
 	#test
+	#tetst
 end
 
 
