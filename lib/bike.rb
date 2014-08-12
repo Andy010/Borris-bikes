@@ -10,30 +10,20 @@ class Bike
 	end
 
 	def broken?
-	#instance variables are accessibloe in
-	#all methods
-	@broken
+		# instance variables are accessibloe in
+		#all methods
+		@broken
 	end
 	
 	def break!
 		# and any instance method can update them
-	@broken = true
+		@break = true
 	end
 	
 	def fix!
 		true
 	end
 end
-
-
-
-
-
-
-
-
-
-
 
 
 
