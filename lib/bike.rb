@@ -17,16 +17,14 @@ class Bike
 	
 	def break!
 		# and any instance method can update them
-		@break = true
+		@broken = true
 	end
 	
 	def fix!
 		@broken = false
 	end
-	#test
-	#tetst
-end
 
+end
 
 
 
