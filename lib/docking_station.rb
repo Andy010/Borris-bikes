@@ -14,5 +14,4 @@ class DockingStation
 		# the capacity() method in BikeContainer
 		self.capacity = options.fetch(:capacity, capacity)
 	end
-
 end
