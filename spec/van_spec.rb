@@ -2,9 +2,9 @@ require 'van'
 
 describe Van do
 	
-	let(:van) {Van.new}
-	let(:station) {DockingStation.new}
-	let(:garage) {Garage.new}
+	let(:van) 		{Van.new}
+	let(:station) 	{DockingStation.new}
+	let(:garage) 	{Garage.new}
 
 	it "should be able to pick up broken bikes from dock" do
 		working_bike, broken_bike = Bike.new, Bike.new

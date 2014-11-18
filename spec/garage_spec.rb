@@ -3,8 +3,8 @@ require 'garage'
 describe Garage do
 
 	let(:garage) { Garage.new(:capacity => 75) }
-	let(:bike) { Bike.new }
-	let(:bike2) {Bike.new }
+	let(:bike)   { Bike.new }
+	let(:bike2)  { Bike.new }
 
 	it "should allow setting default capacity on initialising" do
 		expect(garage.capacity).to eq(75)

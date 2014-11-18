@@ -42,13 +42,6 @@ end
 
 
 
-
-
-
-
-
-
-
 class Andy
 	def broken?
 		true
